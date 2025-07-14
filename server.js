@@ -2,7 +2,7 @@ const express = require('express');
 const { Bot } = require('grammy');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
-const TOKEN = "TOPSECRET:7945528921:AAH-Flr1CaFamyNCassbo8YgHTDIIj1s6QU";
+";
 const bot = new Bot(TOKEN);
 const app = express();
 
